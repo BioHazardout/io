@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== FAVICON ====================-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+            
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <title>Seven Studio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+
+                    <svg width="105" height="30" viewBox="0 0 70 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="nav__logo--color" d="M10.7074 15.4811C10.7074 16.2761 10.4889 16.9608 10.0737 17.535C9.65854 18.1092 9.02484 18.5288 8.21632 18.838C7.38594 19.1251 6.40261 19.2797 5.22261 19.2797C4.10816 19.2797 3.14667 19.1251 2.33815 18.7938C1.52963 18.4625 0.939632 18.0871 0.56815 17.6012C0.174815 17.1154 0 16.6516 0 16.1657C0 15.8565 0.131111 15.5694 0.371482 15.3486C0.611853 15.1277 0.91778 15.0173 1.28926 15.0173C1.61704 15.0173 1.87926 15.0835 2.05408 15.2381C2.22889 15.3927 2.40371 15.5915 2.55667 15.8565C2.88445 16.3645 3.25593 16.762 3.71482 17.0049C4.15186 17.27 4.76372 17.3804 5.55038 17.3804C6.18409 17.3804 6.68668 17.2479 7.08002 16.9829C7.47335 16.7178 7.69187 16.4307 7.69187 16.0995C7.69187 15.5915 7.47335 15.2161 7.05817 14.9731C6.64298 14.7302 5.96557 14.5093 5.00409 14.3106C3.93334 14.0676 3.05927 13.8026 2.38186 13.5376C1.70445 13.2726 1.15815 12.8971 0.764817 12.4554C0.349631 12.0137 0.152963 11.4616 0.152963 10.7991C0.152963 10.2248 0.349631 9.67272 0.721113 9.14268C1.0926 8.63473 1.63889 8.21511 2.38186 7.90592C3.10297 7.59673 3.9989 7.44214 5.02594 7.44214C5.83446 7.44214 6.55557 7.53048 7.21113 7.68507C7.86669 7.83967 8.39113 8.06052 8.82817 8.30345C9.26521 8.56847 9.59299 8.85558 9.81151 9.16477C10.03 9.47396 10.1393 9.80523 10.1393 10.0923C10.1393 10.4236 10.03 10.6886 9.7678 10.9095C9.50558 11.1303 9.1778 11.2187 8.74076 11.2187C8.41298 11.2187 8.15076 11.1303 7.93224 10.9537C7.71372 10.777 7.4515 10.534 7.16743 10.1807C6.92705 9.89357 6.64298 9.67272 6.33705 9.49604C6.00927 9.31936 5.57224 9.23102 5.02594 9.23102C4.45779 9.23102 3.9989 9.34145 3.62742 9.5623C3.25593 9.78315 3.05927 10.0703 3.05927 10.4015C3.05927 10.7107 3.19038 10.9537 3.47445 11.1524C3.75853 11.3512 4.13001 11.5058 4.5889 11.6383C5.04779 11.7708 5.70335 11.9254 6.51187 12.1021C7.47335 12.3229 8.28187 12.5879 8.89373 12.8971C9.50558 13.2063 9.96447 13.5597 10.2922 13.9793C10.5545 14.4873 10.7074 14.951 10.7074 15.4811Z" fill="white"/>
+                        <path class="nav__logo--color" d="M22.2015 14.09H16.083C16.083 14.7526 16.2359 15.3268 16.52 15.8348C16.8041 16.3427 17.1756 16.7182 17.6344 16.9611C18.0933 17.2261 18.5959 17.3365 19.1641 17.3365C19.5356 17.3365 19.8852 17.2924 20.1911 17.204C20.497 17.1157 20.803 17.0053 21.087 16.8286C21.3711 16.6519 21.6333 16.4752 21.8956 16.2765C22.1359 16.0777 22.4637 15.8127 22.8352 15.4593C22.9882 15.3268 23.2285 15.2606 23.5126 15.2606C23.8404 15.2606 24.1026 15.3489 24.2993 15.5035C24.4959 15.6581 24.6052 15.901 24.6052 16.1881C24.6052 16.4531 24.4959 16.7623 24.2774 17.1157C24.0589 17.4691 23.7311 17.8003 23.2722 18.1316C22.8352 18.4629 22.267 18.7279 21.5896 18.9267C20.9122 19.1475 20.1474 19.2358 19.2515 19.2358C17.2411 19.2358 15.6896 18.7058 14.5752 17.6457C13.4607 16.5857 12.8926 15.1501 12.8926 13.3171C12.8926 12.4558 13.0237 11.6607 13.3078 10.9319C13.5918 10.2031 13.9852 9.56262 14.5096 9.05467C15.0341 8.54671 15.6896 8.1271 16.4544 7.83999C17.2193 7.55289 18.0715 7.42038 19.0111 7.42038C20.2348 7.42038 21.2837 7.66331 22.1578 8.1271C23.0319 8.61297 23.6874 9.23135 24.1245 9.98224C24.5615 10.7331 24.78 11.5061 24.78 12.3012C24.78 13.03 24.5615 13.4938 24.1026 13.7146C23.6437 13.9796 23.01 14.09 22.2015 14.09ZM16.083 12.4337H21.7426C21.677 11.4398 21.3711 10.711 20.8685 10.2031C20.3659 9.71722 19.7104 9.47428 18.9019 9.47428C18.1152 9.47428 17.4815 9.71722 16.9789 10.2252C16.4981 10.7331 16.1922 11.4619 16.083 12.4337Z" fill="white"/>
+                        <path class="nav__logo--color" d="M53.3624 14.09H47.2438C47.2438 14.7526 47.3968 15.3268 47.6809 15.8348C47.965 16.3427 48.3364 16.7182 48.7953 16.9611C49.2542 17.2261 49.7568 17.3365 50.325 17.3365C50.6964 17.3365 51.0461 17.2924 51.352 17.204C51.6579 17.1157 51.9639 17.0053 52.2479 16.8286C52.532 16.6519 52.7942 16.4752 53.0564 16.2765C53.2968 16.0777 53.6246 15.8127 53.9961 15.4593C54.149 15.3268 54.3894 15.2606 54.6735 15.2606C55.0013 15.2606 55.2635 15.3489 55.4602 15.5035C55.6568 15.6581 55.7661 15.901 55.7661 16.1881C55.7661 16.4531 55.6568 16.7623 55.4383 17.1157C55.2198 17.4691 54.892 17.8003 54.4331 18.1316C53.9961 18.4629 53.4279 18.7279 52.7505 18.9267C52.0731 19.1475 51.3083 19.2358 50.4124 19.2358C48.402 19.2358 46.8505 18.7058 45.7361 17.6457C44.6216 16.5857 44.0535 15.1501 44.0535 13.3171C44.0535 12.4558 44.1846 11.6607 44.4687 10.9319C44.7527 10.2031 45.1461 9.56262 45.6705 9.05467C46.195 8.54671 46.8505 8.1271 47.6153 7.83999C48.3801 7.55289 49.2324 7.42038 50.172 7.42038C51.3957 7.42038 52.4446 7.66331 53.3187 8.1271C54.1927 8.61297 54.8483 9.23135 55.2853 9.98224C55.7224 10.7331 55.9409 11.5061 55.9409 12.3012C55.9409 13.03 55.7224 13.4938 55.2635 13.7146C54.8046 13.9796 54.1709 14.09 53.3624 14.09ZM47.2438 12.4337H52.9035C52.8379 11.4398 52.532 10.711 52.0294 10.2031C51.5268 9.71722 50.8713 9.47428 50.0627 9.47428C49.2761 9.47428 48.6424 9.71722 48.1398 10.2252C47.6372 10.7331 47.3531 11.4619 47.2438 12.4337Z" fill="white"/>
+                        <path class="nav__logo--color" d="M61.5131 9.07678V9.43014C62.0594 8.76759 62.6713 8.25964 63.3268 7.95045C63.9824 7.64126 64.7253 7.48666 65.5776 7.48666C66.4079 7.48666 67.1291 7.66334 67.7846 7.99462C68.4402 8.32589 68.9209 8.78968 69.2487 9.40806C69.4454 9.76142 69.5983 10.1369 69.642 10.5565C69.7076 10.9761 69.7294 11.484 69.7294 12.1245V17.5133C69.7294 18.0875 69.5765 18.5292 69.2924 18.8384C69.0083 19.1255 68.6368 19.2801 68.178 19.2801C67.7191 19.2801 67.3257 19.1255 67.0417 18.8163C66.7576 18.5071 66.6046 18.0654 66.6046 17.5133V12.6766C66.6046 11.727 66.4517 10.9982 66.1676 10.4902C65.8835 9.98227 65.3154 9.73933 64.4631 9.73933C63.895 9.73933 63.3924 9.89393 62.9335 10.2031C62.4746 10.5123 62.1468 10.9319 61.9283 11.462C61.7753 11.9037 61.7098 12.6987 61.7098 13.8913V17.5353C61.7098 18.1316 61.5568 18.5733 61.2727 18.8604C60.9887 19.1475 60.5953 19.3021 60.1364 19.3021C59.6776 19.3021 59.3061 19.1475 59.022 18.8384C58.7379 18.5292 58.585 18.0875 58.585 17.5353V9.14304C58.585 8.59091 58.7161 8.1713 58.9783 7.90628C59.2405 7.64126 59.5902 7.48666 60.049 7.48666C60.3331 7.48666 60.5735 7.55292 60.792 7.66334C61.0105 7.77377 61.1853 7.97253 61.3164 8.21547C61.4476 8.4584 61.5131 8.74551 61.5131 9.07678Z" fill="white"/>
+                        <path class="nav__logo--color" d="M41.9775 9.84975L37.4105 18.1095C36.9734 18.9046 36.5364 19.4126 36.0994 19.6334C35.6623 19.8543 35.1597 19.8101 34.5916 19.4788C34.2419 19.28 33.9142 18.8163 33.5645 18.0875C33.2368 17.3586 32.8653 16.5194 32.4719 15.5918C32.0786 14.6643 31.5323 13.6484 30.833 12.4999C30.1338 11.3515 29.1723 10.1369 27.9704 8.83384C27.4241 8.25963 26.9653 7.81793 26.5938 7.50874C26.2223 7.17747 25.7197 6.77994 25.086 6.29407C24.4523 5.8082 23.9934 5.43275 23.6656 5.14565C22.9227 4.50518 22.4856 3.93097 22.3327 3.42302C22.1797 2.91506 22.2671 2.40711 22.5512 1.87707C22.8353 1.36911 23.2286 1.05992 23.753 0.949499C24.2775 0.839074 24.8675 0.971584 25.5449 1.36911C26.0693 1.65622 26.7249 2.18626 27.4897 2.91506C28.2764 3.64387 29.1505 4.61561 30.1119 5.83028C31.0953 7.04496 32.0349 8.41423 32.9308 9.91601C33.8268 11.4178 34.6571 13.0521 35.3782 14.841L39.0494 8.19338C39.4427 7.50874 39.836 7.04496 40.2949 6.84619C40.732 6.64743 41.2127 6.6916 41.759 7.00079C42.3271 7.30998 42.5894 7.70751 42.5457 8.17129C42.5457 8.63508 42.349 9.1872 41.9775 9.84975Z" fill="white"/>
+                        </svg>
+                        
+                        <svg width="12" height="18" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.14758 8.58569C7.23498 8.58569 7.32239 8.60778 7.4098 8.67403C7.49721 8.74029 7.60647 8.80654 7.69387 8.91697C7.78128 9.02739 7.84684 9.18199 7.91239 9.33658C7.9561 9.51326 7.9998 9.71203 7.9998 9.91079C7.9998 10.3746 7.86869 10.7279 7.62832 10.993C7.38795 11.258 7.06017 11.3905 6.64498 11.3905C6.36091 11.3905 6.12054 11.3242 5.90202 11.2138C5.6835 11.1034 5.53053 10.9267 5.39942 10.7059C5.29016 10.485 5.22461 10.22 5.22461 9.91079C5.22461 9.71203 5.24646 9.53535 5.29016 9.38075C5.33387 9.22616 5.39942 9.09365 5.48683 8.98322C5.57424 8.8728 5.66165 8.78446 5.74905 8.7182C5.83646 8.65195 5.92387 8.62986 6.01128 8.62986C6.09869 8.62986 6.16424 8.65195 6.20795 8.7182C6.25165 8.78446 6.29535 8.8728 6.29535 8.96114C6.29535 9.02739 6.2735 9.07156 6.25165 9.11573C6.22979 9.1599 6.1861 9.20407 6.12054 9.24824C5.98943 9.33658 5.90202 9.42492 5.83646 9.53535C5.7709 9.64577 5.74905 9.7562 5.74905 9.91079C5.74905 10.1316 5.83646 10.3083 5.98943 10.4408C6.14239 10.5733 6.36091 10.6396 6.62313 10.6396C6.75424 10.6396 6.8635 10.6175 6.97276 10.5954C7.08202 10.5513 7.16943 10.5071 7.23498 10.4408C7.30054 10.3746 7.3661 10.2862 7.4098 10.1979C7.45351 10.1096 7.47536 9.99913 7.47536 9.88871C7.47536 9.73411 7.4535 9.60161 7.38795 9.51327C7.32239 9.40284 7.23499 9.3145 7.10388 9.22616C7.03832 9.18199 6.97276 9.13782 6.92906 9.07156C6.88535 9.00531 6.8635 8.96114 6.8635 8.8728C6.8635 8.78446 6.88535 8.69612 6.95091 8.65195C7.01647 8.62986 7.08202 8.58569 7.14758 8.58569Z" fill="#E74040"/>
+                            <path d="M6.62313 5.14044C6.8198 5.14044 7.01647 5.18461 7.16943 5.25087C7.34425 5.31712 7.47536 5.42755 7.60647 5.56006C7.73758 5.69257 7.82499 5.84716 7.89054 6.02384C7.9561 6.20052 7.97796 6.39929 7.97796 6.64222C7.97796 6.86307 7.93425 7.06184 7.8687 7.2606C7.80314 7.43728 7.71573 7.59188 7.58462 7.72439C7.45351 7.8569 7.32239 7.94524 7.14758 8.03358C6.97276 8.09983 6.79795 8.144 6.60128 8.144C6.40461 8.144 6.20794 8.09983 6.03313 8.03358C5.85831 7.96732 5.7272 7.8569 5.59609 7.74647C5.46498 7.61396 5.37757 7.45937 5.31202 7.28269C5.24646 7.10601 5.22461 6.90724 5.22461 6.66431C5.22461 6.44346 5.24646 6.24469 5.33387 6.04593C5.39942 5.86925 5.48683 5.71465 5.61794 5.58214C5.74905 5.44963 5.88017 5.36129 6.05498 5.27295C6.2298 5.16253 6.40461 5.14044 6.62313 5.14044ZM6.62313 5.89133C6.33906 5.89133 6.14239 5.95759 5.98943 6.0901C5.83646 6.22261 5.74905 6.39929 5.74905 6.62014C5.74905 6.77473 5.79276 6.88516 5.85831 6.99558C5.92387 7.10601 6.03313 7.19435 6.16424 7.2606C6.29535 7.32686 6.44832 7.34894 6.62313 7.34894C6.79795 7.34894 6.95091 7.32686 7.08203 7.2606C7.21314 7.19435 7.3224 7.12809 7.38795 7.01767C7.45351 6.90724 7.49721 6.77473 7.49721 6.62014C7.49721 6.39929 7.4098 6.22261 7.25684 6.0901C7.10387 5.95759 6.88536 5.89133 6.62313 5.89133Z" fill="#E74040"/>
+                            <path d="M6.66702 2.04853H7.56294C7.69405 2.04853 7.80331 2.0927 7.89072 2.15895C7.95627 2.22521 7.99998 2.31355 7.99998 2.44606C7.99998 2.55648 7.95627 2.64482 7.89072 2.71108C7.82516 2.77733 7.7159 2.8215 7.56294 2.8215H6.4922C6.31738 2.8215 6.18627 2.8215 6.09887 2.84359C6.01146 2.86567 5.92405 2.88776 5.85849 2.95401C5.79294 3.02027 5.77109 3.10861 5.77109 3.21903C5.77109 3.46197 5.83664 3.61656 5.98961 3.7049C6.14257 3.77116 6.36109 3.81533 6.64516 3.81533H7.56294C7.69405 3.81533 7.80331 3.8595 7.89072 3.92575C7.97813 3.99201 7.99998 4.08035 7.99998 4.21286C7.99998 4.32328 7.95627 4.41162 7.89072 4.49996C7.82516 4.56622 7.7159 4.61039 7.56294 4.61039H5.63997C5.50886 4.61039 5.42146 4.5883 5.3559 4.52205C5.29035 4.45579 5.24664 4.36745 5.24664 4.25703C5.24664 4.1466 5.26849 4.08035 5.33405 3.99201C5.39961 3.92575 5.48701 3.88158 5.59627 3.88158H5.66183C5.53072 3.74907 5.42146 3.61656 5.3559 3.46197C5.29035 3.30737 5.24664 3.15278 5.24664 2.9761C5.24664 2.79942 5.29035 2.62274 5.3559 2.49023C5.42146 2.35772 5.53072 2.24729 5.66183 2.15895C5.53072 2.02644 5.42146 1.89393 5.3559 1.76142C5.29035 1.62891 5.24664 1.45223 5.24664 1.27555C5.24664 1.07679 5.29035 0.900107 5.3559 0.745512C5.42146 0.590917 5.53072 0.480492 5.66183 0.414237C5.79294 0.347982 5.96776 0.325897 6.22998 0.325897H7.54109C7.6722 0.325897 7.78146 0.370067 7.86887 0.436322C7.93443 0.502577 7.97813 0.590917 7.97813 0.723427C7.97813 0.833852 7.93443 0.922192 7.86887 1.01053C7.80332 1.07679 7.69406 1.12096 7.54109 1.12096H6.40479C6.25183 1.12096 6.14257 1.12096 6.05516 1.14304C5.96775 1.16513 5.9022 1.18721 5.83664 1.25347C5.77108 1.31972 5.74923 1.40806 5.74923 1.51849C5.74923 1.60683 5.77108 1.71725 5.83664 1.80559C5.88034 1.89393 5.96775 1.96019 6.05516 2.00436C6.18627 2.02644 6.38294 2.04853 6.66702 2.04853Z" fill="#E74040"/>
+                            <path d="M1.88133 11.258C2.83474 11.258 3.60763 10.4768 3.60763 9.51327C3.60763 8.54969 2.83474 7.76855 1.88133 7.76855C0.927919 7.76855 0.155029 8.54969 0.155029 9.51327C0.155029 10.4768 0.927919 11.258 1.88133 11.258Z" fill="#E74040"/>
+                            </svg>
+                </a>
+                
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Inico
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#benefies" class="nav__link">
+                                <i class="uil uil-bill nav__icon"></i> Beneficios
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user-plus nav__icon"></i></i></i> Nosotros
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase nav__icon"></i> Servicios
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Portafolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contáctanos
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">     
+                    <!--=================CHANGE BUTTON=================-->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+
+        <main class="main">
+            <!--==================== INICIO ====================-->
+            <section class="home section" id="home">
+                
+                <div class="home__container container grid">
+                    <div class="home__content grid">   
+                        <div class="home__social">
+                            <a href="#" class="home__social-icon">
+                                <i class="uil uil-facebook-f"></i>
+                            </a>
+                            <a href="#" class="home__social-icon">
+                             <i class="uil uil-instagram"></i>
+                            </a>
+                            <a href="#" target="_blank" class="home__social-icon">
+                                <i class="uil uil-whatsapp"></i>    
+                            </a>
+                        </div>
+                    
+                        <div class="home__img">
+                           <img src="assets/img/img1.svg" alt="" data-speed=".5" class="move">
+                           <img src="assets/img/img2.svg" alt="" data-speed="2" class="move">
+                           <img src="assets/img/img3.svg" alt="" data-speed="-1" class="move">
+                           <img src="assets/img/img4.svg" alt="" data-speed="2" class="move">
+                           <img src="assets/img/img5.svg" alt="" data-speed="-2" class="move">
+                           <img src="assets/img/img6.svg" alt="" data-speed="2" class="move">
+                           <img src="assets/img/img7.svg" alt="" data-speed="-1" class="move">
+                           <img src="assets/img/img8.svg" alt="" data-speed="-1" class="move">
+                           <img src="assets/img/img9.svg" alt="" data-speed="-2" class="move">
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Crea tu sitio web y logra más que tu competencia.
+                                </h1>
+                            <h3 class="home__subtitle">Somos Seven Studio</h3>
+                            <p class="home__description">Te ayudanos a poner en marcha tu plan de negocios, desarrollando y gestionando tú marca, llevandola al siguiente nivel.
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                                Conócenos <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>    
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== POR QUE TENER UNA WEB ====================-->
+            <section class="benefies section__inter" id="benefies">
+                <h2 class="section__title">¿Por qué tener una página web?</h2>
+                <span class="section__subtitle">Visibilidad y amplitud de mercado</span>
+
+                <div class="benefies__container container grid">
+                    
+
+                    <div class="benefies__data">
+                        <p class="benefies__description">La visibilidad que la página web le aporta a tu negocio, te permite estar disponible las 24 horas del día en favor de tu target. <br>
+                            Cuando alguien escucha acerca de un negocio, lo primero que hace es buscarlo en internet.  
+                            Si no estás presente en internet, probablemente perderás un potencial cliente. <br>
+                        </p>
+                       
+                        <div class="benefies__info">
+                            <div>
+                                <span class="benefies__info-title">94%</span>
+                                <span class="benefies__info-name">de las primeras impresiones se relacionan con el diseño de tu web.</span>
+                            </div>  
+                            <div>
+                                <span class="benefies__info-title">75%</span>
+                                <span class="benefies__info-name">de la credibilidad proviene del diseño.</span>
+                            </div>
+                            <div>
+                                <span class="benefies__info-title">90%   </span>
+                                <span class="benefies__info-name">de las personas dejaron un sitio web porque estaba mal diseñada.</span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <img src="assets/img/porque1.jpg" alt="" class="benefies__img">
+                    
+                    <div></div>
+
+                    <div class="home__scroll">
+                        <a href="#benefies2" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                             <span class="home__scroll-name"> Seguir Leyendo</span>
+                             <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+
+                </div>
+        
+                <div class="section" id="benefies2">
+                    <h2 class="section__title">Incrementa tus ventas</h2>
+                    <span class="section__subtitle">Da confianza y respaldo a la tienda física o emprendimiento.</span>
+
+                    <div class="benefies__container container grid">
+                        <img src="assets/img/porque2.jpg" alt="" class="benefies__img">
+
+                        <div class="benefies__data">
+                            <p class="about__description">Con solo visibilizar tu marca en Internet mediante una web puedes hacer que tus ventas incrementen considerablemente. Porque les das a tus clientes una manera más de visibilizar tus productos, dejando que se tomen todo el tiempo que necesitan. Una web incrementa la confianza en los usuarios y permite cerrar más ventas.
+                            </p>
+                            <div class="benefies__info">
+                                <div>
+                                    <span class="benefies__info-title">82%</span>
+                                    <span class="benefies__info-name"> De las empresas con sitio web aumentaron sus ventas.</span>
+                                </div>
+                                <div>
+                                    <span class="benefies__info-title">75%</span>
+                                    <span class="benefies__info-name">de consumidores cree que es un mercado en ascenso.</span>
+                                </div>
+                                <div>
+                                    <span class="benefies__info-title">59%</span>
+                                    <span class="benefies__info-name">de consumidores compran ahora por internet.</span>
+                                </div>
+                            </div>
+  
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== NOSOTROS ====================-->
+            <section class="about section__inter" id="about">
+                <h2 class="section__title">¿Que es Seven Studio?</h2>
+                <span class="section__subtitle">Somos una agencia especializada en Diseño Web y Marketing Digital.</span>
+
+                <div class="about__container container grid">
+                    
+
+                    <div class="about__data">
+                        <h3 class="about__subtitle">¿Que buscamos?</h3>
+                        <p class="about__description">En la actualidad Internet es un espacio fundamental en el mundo de los negocios. Por ello, nosotros nos encargamos de mostrar tu empresa al mundo, desde la creación y el diseño de tu sitio web hasta su posicionamiento en los buscadores y campañas publicitarias por Internet, haciendo que tu inversión en la web se traduzca en clientes potenciales.
+                        </p>
+                       
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">05+</span>
+                                <span class="about__info-name"> Años de <br> experiencia</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">32+</span>
+                                <span class="about__info-name">Proyectos <br> terminados</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">12+</span>
+                                <span class="about__info-name">Campañas <br> de trabajo</span>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                    <img src="assets/img/nosotros.gif" alt="" class="about__img">
+                    
+                    <div></div>
+
+                    <div class="home__scroll">
+                        <a href="#skills" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                             <span class="home__scroll-name"> Seguir Leyendo</span>
+                             <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+
+                </div>
+                   
+            </section>
+
+            <!--==================== SERVICIOS ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Servicios</h2>
+                <span class="section__subtitle">Te ofrecemos ideas creativas e innovadoras
+                    que aseguran resultados exitosos para tus proyectos.</span>
+
+                <div class="services__container container grid">
+                    <!--==================== SERVICIO 1====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-desktop-alt services__icon"></i>
+                            <h3 class="services__title">Paginas <br>Web</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">Ver Más 
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Paginas <br>Web</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Diseño esclusivo y trabajado desde cero.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Posicionamiento en buscadores</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I create ux element interactions.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I position your company brand.</p>
+                                    </li>
+                                    
+                                        <li class="cursos__modal-service">
+                                            <ul>
+                                                <li><h4 class="cursos__h4">Temario</h4></li>
+                                                <li><i class='bx bx-check-circle'></i> Tecnologías Habilitadoras.</li>
+                                                <li><i class='bx bx-check-circle'></i> Inteligencia Artificial. </li>
+                                                <li><i class='bx bx-check-circle'></i> Blockchain.</li>       
+                                                                                                                                                       
+                                            </ul>
+                                        </li>
+        
+                                        <li class="cursos__modal-service">
+                                            <ul>
+                                                <li><h4 class="cursos__h4">Descripción:</h4></li>
+                                                <li><p> Vivimos constantemente en un entorno ágil y en este contexto es clave poder aprovechar la tecnología ,con el fin automatizar las actividades operativas y repetitivas de los seres humanos.
+                                                </p></li>
+                                            </ul>
+                                        </li>                               
+                                    
+                                </ul>
+
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+
+                    <!--==================== SERVICIO 2====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-arrow services__icon"></i>
+                            <h3 class="services__title">Ui/Ux <br>Diseño</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">Ver Más 
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Ui/ux <br>Diseño</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I develop the user interface.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p> Web page development.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I create ux element interactions.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I position your company brand.</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+
+                    <!--==================== SERVICIO 3====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-shopping-cart services__icon"></i>
+                            <h3 class="services__title">Ui/Ux <br>Diseño</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">Ver Más 
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Ui/ux <br>Diseñador</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I develop the user interface.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p> Web page development.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I create ux element interactions.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I position your company brand.</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+
+                    <!--==================== SERVICIO 4====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-web-grid services__icon"></i>
+                            <h3 class="services__title">Ui/Ux <br>Diseño</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">Ver Más 
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Ui/ux <br>Diseñador</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I develop the user interface.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p> Web page development.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I create ux element interactions.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I position your company brand.</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICIO 5====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-web-grid services__icon"></i>
+                            <h3 class="services__title">Ui/Ux <br>Diseño</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">Ver Más 
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Ui/ux <br>Diseñador</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I develop the user interface.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p> Web page development.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I create ux element interactions.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I position your company brand.</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICIO 6====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-web-grid services__icon"></i>
+                            <h3 class="services__title">Ui/Ux <br>Diseño</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">Ver Más 
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Ui/ux <br>Diseñador</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I develop the user interface.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p> Web page development.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I create ux element interactions.</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I position your company brand.</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                 <!--==================== FUNCIONALIDAD ====================-->
+                 <div class="skills section" id="skills">
+                    <h2 class="section__title">Funcionalidad</h2>
+                    <span class="section__subtitle">Todo lo que necesitas para llevar tu negocio al siguiente nivel.</span>
+
+                    <div class="skills__container container grid">
+                        <!--==================== SKILLS 1====================-->
+                     <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Desarrollador Frontend</h1>
+                                <span class="skills__subtitle">Más de 3 años</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">65%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">React</h3>
+                                    <span class="skills__number">75%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__react"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                 </div>
+
+                 <!--==================== SKILLS 2====================-->
+                 <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Desarrollador Backend</h1>
+                                <span class="skills__subtitle">Más de 1 año</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Node Js</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__number">45%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__firebase"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">55%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+
+                 <!--==================== SKILLS 3====================-->
+                 <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-illustration skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Diseñador</h1>
+                                <span class="skills__subtitle">Más de 8 año</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Figma</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__figma"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Sketch</h3>
+                                    <span class="skills__number">80%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sketch"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Photoshop</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__photoshop"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Illustrator</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__illustrator"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+                        
+                                <!--==================== FUNCIONALIDAD 1====================-->
+                         <div class="skills__content skills__open">
+                             <div class="skills__header">
+                                <i class="uil uil-laptop skills__icon"></i>
+                                  <div>
+                                      <h3 class="skills__title">Diseño Web</h3>                                     
+                                 </div>
+                                  <i class="uil uil-angle-down skills__arrow"></i>
+                             </div>
+
+                             <div class="skills__list grid">
+                                  <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                         <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Diseño personalizado.</p>
+                                    </li>
+                                     <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p> Adaptable a móviles.                                              
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Botón de Whatsapp.</p>
+                                    </li>
+                                       <li class="services__modal-service">
+                                           <i class="uil uil-check-circle services__modal-icon"></i>
+                                           <p>Botón de llamada directa.</p>
+                                       </li>
+                                       <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Formulario de contacto.</p>
+                                    </li>
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Enlaces a tus redes sociales.</p>
+                                    </li>     
+                                 </ul>
+                            </div>
+                         </div>  
+                         
+                         <!--==================== FUNCIONALIDAD 2====================-->
+                         <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-setting skills__icon"></i>
+                                 <div>
+                                     <h3 class="skills__title">Optimizadas para Google</h3>                                     
+                                </div>
+                                 <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                 <ul class="services__modal-services grid">
+                                   <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Diseño personalizado.</p>
+                                   </li>
+                                    <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p> Adaptable a móviles.                                              
+                                   </li>
+                                   <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Botón de Whatsapp.</p>
+                                   </li>
+                                      <li class="services__modal-service">
+                                          <i class="uil uil-check-circle services__modal-icon"></i>
+                                          <p>Botón de llamada directa.</p>
+                                      </li>
+                                      <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Formulario de contacto.</p>
+                                   </li>
+                                   <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Enlaces a tus redes sociales.</p>
+                                   </li>     
+                                </ul>
+                           </div>
+                        </div>
+                        
+                        <!--==================== FUNCIONALIDAD 3====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-cloud skills__icon"></i>
+                                 <div>
+                                     <h3 class="skills__title">Servicios Cloud</h3>                                     
+                                </div>
+                                 <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                 <ul class="services__modal-services grid">
+                                   <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Diseño personalizado.</p>
+                                   </li>
+                                    <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p> Adaptable a móviles.                                              
+                                   </li>
+                                   <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Botón de Whatsapp.</p>
+                                   </li>
+                                      <li class="services__modal-service">
+                                          <i class="uil uil-check-circle services__modal-icon"></i>
+                                          <p>Botón de llamada directa.</p>
+                                      </li>
+                                      <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Formulario de contacto.</p>
+                                   </li>
+                                   <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Enlaces a tus redes sociales.</p>
+                                   </li>     
+                                </ul>
+                           </div>
+                        </div>
+
+                        <!--==================== FUNCIONALIDAD 4====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-user-arrows skills__icon"></i>
+                                 <div>
+                                     <h3 class="skills__title">Capacitación y Soporte</h3>                                     
+                                </div>
+                                 <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                 <ul class="services__modal-services grid">
+                                   <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Diseño personalizado.</p>
+                                   </li>
+                                    <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p> Adaptable a móviles.                                              
+                                   </li>
+                                   <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Botón de Whatsapp.</p>
+                                   </li>
+                                      <li class="services__modal-service">
+                                          <i class="uil uil-check-circle services__modal-icon"></i>
+                                          <p>Botón de llamada directa.</p>
+                                      </li>
+                                      <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Formulario de contacto.</p>
+                                   </li>
+                                   <li class="services__modal-service">
+                                       <i class="uil uil-check-circle services__modal-icon"></i>
+                                       <p>Enlaces a tus redes sociales.</p>
+                                   </li>     
+                                </ul>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+             <!--==================== CARACTERISTICAS ====================-->
+             <section class="features section">
+                <h2 class="section__title">Características</h2>
+                <span class="section__subtitle">Desarrollamos sitios web de acuerdo a las necesidades de nuestros clientes.</span>
+
+                <div class="features__container container swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                         <!--==================== CARACTERISTICA 1 ====================-->
+                        <div class="features__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="features__img">
+
+                            <div class="features__data">
+                                <h3 class="features__title">Web moderna</h3>
+                                <p class="features__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                                <a href="" class="button button--flex button--small portfolio__button">Demo <i class="uil uil-arrow-right button__icon"></i></a>
+
+                            </div>
+                        </div>
+                    
+                        <!--====================CARACTERISTICA 2 ====================-->
+                        <div class="features__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="features__img">
+
+                            <div class="features__data">
+                                <h3 class="features__title">Web moderna</h3>
+                                <p class="features__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                                <a href="" class="button button--flex button--small portfolio__button">Demo <i class="uil uil-arrow-right button__icon"></i></a>
+
+                            </div>
+                        </div>
+
+                        <!--==================== CARACTERISTICA 3 ====================-->
+                        <div class="features__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="features__img">
+
+                            <div class="features__data">
+                                <h3 class="features__title">Web moderna</h3>
+                                <p class="features__description">Website adaptable to all devices, with ui components and animated interactions.</p>
+                                <a href="" class="button button--flex button--small portfolio__button">Demo <i class="uil uil-arrow-right button__icon"></i></a>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!--==================== FLECHAS ====================-->    
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <!--==================== PAGINACION ====================-->
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </section>
+            <!--==================== CUALIFICACION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Calificacion</h2>
+                <span class="section__subtitle">My personal journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs ">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>Educación
+                        </div>
+
+                        <div class="qualification__button button--flex qualification__space" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>Trabajos
+                        </div>
+                    </div>
+                    <div class="qualification__sections">
+                        <!--================== QUALIFICATION CONTENT 1 ==================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--==================== QUALIFICATION  1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Diseñador web</h3>
+                                    <span class="qualification__subtitle">Lima - Perú</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>2011 - 2014
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION  2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Oddo consultor</h3>
+                                    <span class="qualification__subtitle">Perú - Universidad</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>2014 - 2017
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION  3 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Marinero</h3>
+                                    <span class="qualification__subtitle">Perú - Universidad</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>2017 - 2019
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION  4 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Camionero</h3>
+                                    <span class="qualification__subtitle">Perú - Lima</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>2019 - 2021
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                        </div>
+
+                        <!--================== QUALIFICATION CONTENT 2 ==================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION  1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Frontend Developer</h3>
+                                    <span class="qualification__subtitle">Lima - Perú</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>2015 - 2016
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION  2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Desarrollador Ui</h3>
+                                    <span class="qualification__subtitle">Perú - Universidad</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>2014 - 2017
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION  3 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Desarrolador</h3>
+                                    <span class="qualification__subtitle">Perú - Universidad</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>2017 - 2019
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION  4 ====================-->
+                            <!-- <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Master en Ui/Ux</h3>
+                                    <span class="qualification__subtitle">Perú - Lima</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>2019 - 2021
+                                    </div>
+                                </div>
+                                
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PORTAFOLIO ====================-->
+            <section class="portfolio section " id="portfolio">
+                <h2 class="section__title">My recent works</h2>
+                <span class="section__subtitle">ayuda</span>
+                
+                <div class="portfolio__nav">
+                    <span class="portfolio__item active-portfolio" data-filter="all">All</span>
+                    <span class="portfolio__item" data-filter=".web">Web</span>
+                    <span class="portfolio__item" data-filter=".ux">Ui/Ux</span>
+                    <span class="portfolio__item" data-filter=".app">App</span>
+                </div>
+
+                <div class="portfolio__container container grid">
+                    <div class="portfolio__content mix web">
+                        <a href="#"><img src="assets/img/work1.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Web development</span>
+                            <a href="#"><h2 class="portfolio__title">abcde</h2></a>
+                            <span class="button button--flex button--small button--link services__button">Ver Más 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div> 
+                    </div>
+
+                    <div class="portfolio__content mix web">
+                        <a href="#"><img src="assets/img/work2.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Web development</span>
+                            <a href="#"><h2 class="portfolio__title">abcde</h2></a>
+                            <span class="button button--flex button--small button--link services__button">Ver Más 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div> 
+                    </div>
+
+                    <div class="portfolio__content mix ux">
+                        <a href="#"><img src="assets/img/work3.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Web development</span>
+                            <a href="#"><h2 class="portfolio__title">abcde</h2></a>
+                            <span class="button button--flex button--small button--link services__button">Ver Más 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div> 
+                    </div>
+                    
+                    <div class="portfolio__content mix ux">
+                        <a href="#"><img src="assets/img/work4.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Web development</span>
+                            <a href="#"><h2 class="portfolio__title">abcde</h2></a>
+                            <span class="button button--flex button--small button--link services__button">Ver Más 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div> 
+                    </div>
+
+                    <div class="portfolio__content mix app">
+                        <a href="#"><img src="assets/img/work5.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Web development</span>
+                            <a href="#"><h2 class="portfolio__title">abcde</h2></a>
+                            <span class="button button--flex button--small button--link services__button">Ver Más 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div> 
+                    </div>
+
+                    <div class="portfolio__content mixapp">
+                        <a href="#"><img src="assets/img/work6.jpg" alt="" class="portfolio__img"></a>
+                        <div class="portfolio__data">
+                            <span class="portfolio__subtitle">Web development</span>
+                            <a href="#"><h2 class="portfolio__title">abcde</h2></a>
+                            <span class="button button--flex button--small button--link services__button">Ver Más 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div> 
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== PROYECTOS ====================-->
+            <section class="project section">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+                        <div class="project__data">
+                            <h2 class="prject__title">Tenemos un nuevo proyecto</h2>
+                            <p class="project__description">Contact me now and get a 30% discount on your new project.</p>
+                            <a href="#contact" class="button button--flex button--white">Contáctenos
+                                <i class="uil uil-comment-medical project__icon button__icon"></i>
+                            </a>
+                        </div>
+
+                        <img src="assets/img/project.png" alt="" class="project__img">
+                    </div>
+                </div>
+
+
+            </section>
+
+            <!--==================== TESTIMONIO ====================-->
+            <section class="testimonial section">
+                <h2 class="section__title">Testimonios </h2>
+                <span class="section__subtitle">Apoyando nuestro trabajo</span>
+
+                <div class="testimonial__container container swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== TESTIMONIO 1 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Sara Smith</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.
+                                
+                            </p>
+                        </div >
+
+                        <!--==================== TESTIMONIO 2 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Pedro arriondo</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.
+                                
+                            </p>
+                        </div>
+
+                        <!--==================== TESTIMONIO 3 ====================-->
+                        <div class="testimonial__content swiper-slide">
+                            <div class="testimonial__data">
+                                <div class="testimonial__header">
+                                    <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+
+                                    <div>
+                                        <h3 class="testimonial__name">Sara Smith</h3>
+                                        <span class="testimonial__client">Client</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                    <i class="uil uil-star testimonial__icon-star"></i>
+                                </div>
+                            </div>
+                            <p class="testimonial__description">I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.
+                                
+                            </p>
+                        </div>
+                    </div>
+                    <!--==================== PAGINACION====================-->
+                    <div class="swiper-pagination swiper-pagination-testimonial"></div>
+                </div>
+            </section>
+
+            <!--==================== CONTACTO ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contáctanos</h2>
+                <span class="section__subtitle">Deja tus datos</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Teléfono</h3>
+                                <span class="contac__subtitle">949-228-137</span>
+                            </div>
+                        </div>
+                    
+                    
+                        <div class="contact__information">
+                            <i class="uil uil-envelope-alt contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contac__subtitle">sevenstudio@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+    
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Nombre</label>
+                                <input type="text" class="contact__input">
+                            </div>
+    
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+    
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Proyecto</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Mensaje</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Enviar Mensaje
+                                <i class="uil uil-envelope-check button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== PIE DE PAGINA ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                       <a  href="#"> <img src="assets/img/seventotal.svg" alt="Logo Seven studio"> </a>
+                       <div class="footer__space">
+                            <span class="footer__subtitle">Agencia Digital</span>
+                        </div>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#home" class="footer__link">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="footer__link">Servicios</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contáctanos</a>
+                        </li>
+                    </ul>
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="uil uil-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy"> <a href="#home" class="footer__link-grey">SevenStudio  &#169; Agencial Digital</a>  2021.  Todos los Derechos Reservados.</p>
+            </div>
+
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!-- ===== MIXITUP FILTER ===== -->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+         <!--========== SCROLL REVEAL ==========-->
+         <script src="https://unpkg.com/scrollreveal"></script>
+
+          <!--===== GSAP =====-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
